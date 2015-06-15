@@ -1,6 +1,8 @@
 uap-core [![Build Status](https://secure.travis-ci.org/ua-parser/uap-core.png?branch=master)](https://travis-ci.org/ua-parser/uap-core)
 ========
 
+**Changes to this fork are [documented here](https://github.com/adorsys/ua-parser).**
+
 This repository contains the core of [BrowserScope][2]'s original [user agent string parser][3]: data collected over the years by [Steve Souders][4] and numerous other contributors, extracted into a separate [YAML file][5] so as to be reusable _as is_ by implementations in any programming language.
 
 This repo itself does _not_ contain a parser: only the necessary data to build one. There exists a ref implementation, along with multiple, production-ready implementations in various programming languages.
