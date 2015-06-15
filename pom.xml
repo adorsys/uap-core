@@ -12,7 +12,23 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-<build>
+  <scm>
+    <connection>scm:git:git@github.com:adorsys/uap-core.git</connection>
+    <url>scm:git:git@github.com:adorsys/uap-core.git</url>
+    <developerConnection>scm:git:git@github.com:adorsys/uap-core.git</developerConnection>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>ads.releases</id>
+      <url>https://nexus.adorsys.de/nexus/content/repositories/ads-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ads.snapshots</id>
+      <url>https://nexus.adorsys.de/nexus/content/repositories/ads-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <build>
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -33,7 +49,7 @@
           </execution>
         </executions>
       </plugin>
-      </plugins>
-      </build>
+    </plugins>
+  </build>
 
 </project>
