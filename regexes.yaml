@@ -1,6 +1,11 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # KTB
+  - regex: 'APP-([\w\s-\d]+)\/(\d+)\.(\d+)'
+    family_replacement: '$1'
+    engine_replacement: 'Mobile App'
+
   # Pingdom
   - regex: '(Pingdom.com_bot_version_)(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'

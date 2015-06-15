@@ -1,5 +1,30 @@
 test_cases:
 
+  # KTB
+  
+  - user_agent_string: 'APP-BE Test/1.0 (iPad; Apple; CPU iPhone OS 7_0_2 like Mac OS X)'
+    family: 'BE Test'
+    major: '1'
+    minor: '0'
+    patch: 
+    engine: 'Mobile App'
+    
+  - user_agent_string: 'APP-BE/3.2 (iPad; Apple; CPU iPhone OS 7_0_2 like Mac OS X)'
+    family: 'BE'
+    major: '3'
+    minor: '2'
+    patch:
+    engine: 'Mobile App'   
+    
+  - user_agent_string: 'APP-My App/2.0 (Linux; Android 4.2.1; Nexus 5 Build/JOP40D)'
+    family: 'My App'
+    major: '2'
+    minor: '0'
+    patch:         
+    engine: 'Mobile App'
+  
+  # /KTB
+
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
     major: '2'

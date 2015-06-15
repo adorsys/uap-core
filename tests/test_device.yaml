@@ -1,5 +1,24 @@
 test_cases:
 
+  # KTB
+  
+  - user_agent_string: 'APP-BE Test/1.0 (iPad; Apple; CPU iPhone OS 7_0_2 like Mac OS X)'
+    family: 'iPad'
+    brand: 
+    model:
+    
+  - user_agent_string: 'APP-BE/3.2 (iPad; Apple; CPU iPhone OS 7_0_2 like Mac OS X)'
+    family: 'iPad'
+    brand: 
+    model: 
+    
+  - user_agent_string: 'APP-My App/2.0 (Linux; Android 4.2.1; Nexus 5 Build/JOP40D)'
+    family: 'Nexus 5'
+    brand: 
+    model: 
+  
+  # /KTB
+
   - user_agent_string: 'ALCATEL-OT510A/382 ObigoInternetBrowser/Q05A'
     family: 'Alcatel OT510A'
     brand: 'Alcatel'
