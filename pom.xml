@@ -3,7 +3,7 @@
   <groupId>de.adorsys.uap</groupId>
   <artifactId>uap-core</artifactId>
   <packaging>jar</packaging>
-  <version>1.3.3</version>
+  <version>1.3.4-SNAPSHOT</version>
   <name>uap-core</name>
   <url>https://github.com/adorsys/uap-core/</url>
 
@@ -15,7 +15,7 @@
     <connection>scm:git:git@github.com:adorsys/uap-core.git</connection>
     <url>scm:git:git@github.com:adorsys/uap-core.git</url>
     <developerConnection>scm:git:git@github.com:adorsys/uap-core.git</developerConnection>
-    <tag>uap-core-1.3.3</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
